@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Producto</h1>
+
+    <img class="libro" src="./assets/librotalento.png">
+    <p>A partir de ideas, casos prácticos y conceptos sobre talento humano, este libro ofrece una manera diferente y superadora de pensar, diseñar e implementar estrategias para la gestión de los talentos en las organizaciones. Se invita a los lectores a ir más allá de las "recetas", para reflexionar desde la propia problemática del talento humano. Así, el capítulo "final" lo escriben los propios lectores.</p>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" min="1" value="1">
+    
+    <label for="pago">Pago de contado:</label>
+    <input type="checkbox" id="pago">
+    
+    <button onclick="calcularPrecio()">Calcular precio</button>
+    
+    <p id="precio"></p>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
